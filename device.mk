@@ -200,7 +200,8 @@ PRODUCT_PACKAGES += \
     DevicesOverlay \
     FrameworksResCommon \
     FrameworksResTarget \
-    NotchNoFillOverlay
+    NotchNoFillOverlay \
+    NoCutoutOverlay
 
 # Partitions
 PRODUCT_BUILD_PRODUCT_IMAGE := true
