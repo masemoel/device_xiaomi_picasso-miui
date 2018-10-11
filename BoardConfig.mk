@@ -52,6 +52,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
+BOARD_HEALTHD_CUSTOM_CHARGER_RES := $(PLATFORM_PATH)/charger/images
 
 # Dex
 ifeq ($(HOST_OS),linux)

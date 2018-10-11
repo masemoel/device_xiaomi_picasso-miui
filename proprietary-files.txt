@@ -51,6 +51,9 @@ product/lib64/lib-imsvtutils.so
 product/lib64/vendor.qti.imsrtpservice@2.0.so
 product/lib64/vendor.qti.imsrtpservice@2.1.so
 
+# Offline charger - from x2
+vendor/bin/charger|0a3861fd5b997337a40926e7ddb2829461cfded8
+
 # Telephony
 etc/permissions/privapp-permissions-qti.xml
 etc/permissions/qti_libpermissions.xml
