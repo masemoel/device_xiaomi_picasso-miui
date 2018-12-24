@@ -68,6 +68,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CustomDoze
 
+# Display
+PRODUCT_PACKAGES += \
+    libdisplayconfig \
+    libqdMetaData \
+    libqdMetaData.system \
+    libvulkan \
+    vendor.display.config@1.0
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -144,6 +152,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libnl
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
