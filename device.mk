@@ -201,7 +201,8 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget \
     NotchNoFillOverlay \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    NotchBarKiller
 
 # Partitions
 PRODUCT_BUILD_PRODUCT_IMAGE := true
