@@ -29,12 +29,18 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.google.android.GoogleCamera,com.android.camera
 
+# LCD Density
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=440
 
 # Face Unlock
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.face.moto_unlock_service.cam_id=5
+
+
+# Priv-app permission
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.control_privapp_permissions=log
 
 # Voice recording
 PRODUCT_PRODUCT_PROPERTIES += \
