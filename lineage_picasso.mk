@@ -17,6 +17,8 @@ PRODUCT_DEVICE := picasso
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := K30 5G
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_DISPLAY_ID="crDroid"
 
 # Adds face unlock if package is available on ROM source.
 TARGET_SUPPORT_FACE_UNLOCK := true
