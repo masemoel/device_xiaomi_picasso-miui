@@ -88,7 +88,8 @@ PRODUCT_COPY_FILES += \
 
 # Init scripts
 PRODUCT_PACKAGES += \
-    init.qcom.rc
+    init.qcom.rc \
+    init.mi_thermald.rc
 
 # Keylayout
 PRODUCT_COPY_FILES += \
