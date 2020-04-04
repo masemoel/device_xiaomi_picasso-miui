@@ -12,3 +12,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bt.bdaddr_path="/data/misc/bluetooth/bdaddr" \
     persist.bt.enableAptXHD=true \
     debug.performance.tuning=1
+
+# Fling Velocity
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.min.fling_velocity=8000 \
+    ro.max.fling_velocity=12000 \
+    ro.min_pointer_dur=8 \
+    persist.sys.scrollingcache=3 \
+    touch.presure.scale=0.001 \
+    windowsmgr.max_events_per_sec=150
