@@ -14,11 +14,7 @@
  * limitations under the License.
  */
 
-<<<<<<< HEAD:parts/src/org/lineageos/settings/doze/DozeSettingsActivity.java
-package org.lineageos.settings.doze;
-=======
 package org.lineageos.settings.device.thermal;
->>>>>>> 98e63f8... picasso: fix DeviceSettings:parts/src/org/lineageos/settings/thermal/ThermalActivity.java
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
