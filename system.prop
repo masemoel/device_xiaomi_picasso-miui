@@ -20,7 +20,7 @@ ro.vendor.bcbc.enable=false
 ro.vendor.dfps.enable=true
 
 #for CTS fps
-ro.vendor.display.default_fps=60
+ro.vendor.display.default_fps=120
 
 # qcom prop,idle timeout, non-idle switch to idle time
 vendor.display.idle_time=1100
