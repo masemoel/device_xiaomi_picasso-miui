@@ -75,7 +75,7 @@ BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # NFC
-#TARGET_USES_NQ_NFC := true
+TARGET_USES_NQ_NFC := true
 
 
 # Partitions

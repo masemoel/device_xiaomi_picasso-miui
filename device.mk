@@ -104,12 +104,16 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    NQNfcNci \
+    com.nxp.nfc.nq \
+    android.hardware.nfc@1.0:64 \
+    android.hardware.nfc@1.1:64 \
+    android.hardware.nfc@1.2:64 \
+    android.hardware.secure_element@1.0:64 \
     com.android.nfc_extras \
-    com.gsma.services.nfc \
-    NfcNci \
-    SecureElement \
-    android.hardware.secure_element@1.0 \
-    Tag
+    Tag \
+    vendor.nxp.nxpese@1.0:64 \
+    vendor.nxp.nxpnfc@1.0:64
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
