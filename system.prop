@@ -33,7 +33,7 @@ sys.displayfeature_hidl=true
 
 vendor.hbm.enable=true
 
-#FP
+# FP
 ro.fingerprint.cleanup.unused=false
 
 # USB debugging
@@ -45,8 +45,11 @@ ro.debuggable=1
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
 
-#Netflix custom property
+# Netflix custom property
 ro.netflix.bsp_rev=Q6150-17263-1
 
 # Set stock DPI
 ro.sf.lcd_density=420
+
+# Enable Mag filter
+persist.vendor.sensors.enable.mag_filter=true
