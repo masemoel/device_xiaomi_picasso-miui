@@ -29,4 +29,8 @@
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">com.custom.ambient.display/com.custom.ambient.display.DozeSettings</string>
+
+    <!-- Whether device supports refresh rate switch
+         config_defaultPeakRefreshRate shouldn't be defined as 60 on frameworks/base -->
+    <bool name="config_supportsRefreshRateSwitch">false</bool>
 </resources>
