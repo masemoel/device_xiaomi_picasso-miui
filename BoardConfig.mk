@@ -27,6 +27,12 @@ TARGET_USES_64_BIT_BINDER := true
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
+# APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := picasso
+
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
 
@@ -37,6 +43,25 @@ TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := lito
 TARGET_NO_BOOTLOADER := true
+
+# Camera
+TARGET_USES_PREBUILT_CAMERA_SERVICE := true
+
+# Charger Mode
+BOARD_CHARGER_ENABLE_SUSPEND := true
+
+# Dex
+ifeq ($(HOST_OS),linux)
+  ifneq ($(TARGET_BUILD_VARIANT),eng)
+    WITH_DEXPREOPT ?= true
+  endif
+endif
+
+# DRM
+TARGET_ENABLE_MEDIADRM_64 := true
+
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
@@ -74,6 +99,14 @@ BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
 
 # Neverallows
 SELINUX_IGNORE_NEVERALLOWS := true
+
+# FM
+BOARD_HAS_QCA_FM_SOC := "cherokee"
+BOARD_HAVE_QCOM_FM := true
+
+# HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # NFC
 TARGET_USES_NQ_NFC := true
@@ -126,11 +159,13 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
     device/qcom/sepolicy/generic/public \
     device/qcom/sepolicy/qva/public
 
-# Telephony
+# RIL
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
 # Treble
 BOARD_VNDK_VERSION := current
+PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
