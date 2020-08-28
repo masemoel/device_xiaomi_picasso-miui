@@ -12,9 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
 
-# Include PSU if synced
-$(call inherit-product-if-exists, vendor/google/psu/google-psu.mk)
-
 -include $(LOCAL_PATH)/system_prop.mk
 -include $(LOCAL_PATH)/product_prop.mk
 
@@ -51,8 +48,8 @@ PRODUCT_PACKAGES += \
     BluetoothQti
 
 # Camera
-PRODUCT_PACKAGES += \
-    Snap
+#PRODUCT_PACKAGES += \
+#    Snap
 
 # Configs
 PRODUCT_COPY_FILES += \
@@ -124,9 +121,6 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     DevicesOverlay \
     DevicesAndroidOverlay
-
-# Power
-
 
 # Telephony
 PRODUCT_PACKAGES += \
