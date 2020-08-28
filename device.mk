@@ -37,11 +37,6 @@ AB_OTA_UPDATER := false
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService
-    
-# Charging
-PRODUCT_PACKAGES += \
-    charger_res_images \
-    product_charger_res_images
 
 # Audio
 PRODUCT_PACKAGES += \
