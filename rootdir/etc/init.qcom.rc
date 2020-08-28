@@ -2,8 +2,21 @@ on early-init
     # Load some kernel modules we put in /system instead of /vendor
     exec u:r:modprobe:s0 -- /system/bin/modprobe -a -d \
         /system/lib/modules wlan rmnet_perf rmnet_shs
+    # Enable logcat service logger
+service logger /system/bin/logcat -b all -D -f /cache/boot_log.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
 
 on boot
     # selinux nodes, hide permissive state
     chmod 0640 /sys/fs/selinux/enforce
     chmod 0440 /sys/fs/selinux/policy
+
+    # Clear existing log and start the service
+    rm /cache/boot_log.txt
+    start logger
+    # Stop logcat logger service
+    stop logger
