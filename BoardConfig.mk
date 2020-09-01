@@ -49,9 +49,6 @@ TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 TARGET_BOOTLOADER_BOARD_NAME := lito
 TARGET_NO_BOOTLOADER := true
 
-# Camera
-TARGET_USES_PREBUILT_CAMERA_SERVICE := true
-
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
@@ -64,9 +61,6 @@ endif
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
-
-# Enable real time lockscreen charging current values
-BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
@@ -88,7 +82,7 @@ TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb-12.05-stable
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img-12.05-stable
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel-12.05-stable
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7250
+  TARGET_KERNEL_SOURCE := kernel/xiaomi/picasso
   TARGET_KERNEL_CONFIG := vendor/picasso_user_defconfig
   TARGET_KERNEL_CLANG_COMPILE := true
 endif
