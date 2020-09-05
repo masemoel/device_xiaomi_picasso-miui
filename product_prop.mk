@@ -86,4 +86,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Voice recording
 PRODUCT_PRODUCT_PROPERTIES += \
-    persist.vendor.audio.fluence.voicerec=true
+    persist.vendor.audio.fluence.voicerec=true \
+    persist.vendor.audio.fluence.audiorec=true
