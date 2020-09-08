@@ -1,8 +1,8 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 AICP
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_picasso.mk
+    $(LOCAL_DIR)/aicp_picasso.mk
