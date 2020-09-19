@@ -1,11 +1,11 @@
-![crDroid](https://img.xda-cdn.com/nUBKZfMRYCotfvNioAnDwWlUuak=/http%3A%2F%2Fi.imgur.com%2FBE3pE0l.png "crDroid")
+![AICP](https://raw.githubusercontent.com/AICP/vendor_aicp/q10.0/docs/xda_template/logo_black.png "AICP")
 
-crDroid 6.9 (Android Q) for the Redmi K30 5G (picasso)
+AICP 15.0 (Q) for Redmi K30 5G (picasso)
 ======================================
 
 # How to build
 
-Download crDroid's source and picasso's repos. You can have a look at my manifest:
+Download AICP's source and picasso's repos. You can have a look at my manifest:
 
 https://github.com/masemoel/local_manifests/blob/master/picasso_q.xml
 
