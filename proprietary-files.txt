@@ -4,6 +4,18 @@
 product/lib/com.qualcomm.qti.ant@1.0.so
 product/lib64/com.qualcomm.qti.ant@1.0.so
 
+# Camera service
+/bin/cameraserver
+/lib64/libcameraservice.so
+/lib/libcameraservice.so
+vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
+vendor/lib64/android.hardware.camera.provider@2.4-external.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib/android.hardware.camera.provider@2.4-external.so
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
+
 # DPM
 framework/tcmclient.jar
 product/bin/dpmd
