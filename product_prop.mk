@@ -14,7 +14,7 @@ endif
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
-    vendor.camera.aux.packagelist=org.lineageos.snap,net.sourceforge.opencamera,org.codeaurora.snapcam
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.google.android.GoogleCamera,com.android.camera
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=375
