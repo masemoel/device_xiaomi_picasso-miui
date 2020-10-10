@@ -665,4 +665,6 @@
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_displayBlanksAfterDoze">true</bool>
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    <!-- Google Wellbeing -->
+    <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
 </resources>
