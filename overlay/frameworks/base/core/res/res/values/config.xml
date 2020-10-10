@@ -659,4 +659,6 @@
     <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
+    <!-- Live display -->
+    <bool name="config_liveDisplayAvailable">true</bool>
 </resources>
