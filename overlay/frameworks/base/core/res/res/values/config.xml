@@ -662,10 +662,6 @@
     <bool name="config_FastChargingLedSupported">true</bool>
     <!-- Live display -->
     <bool name="config_liveDisplayAvailable">true</bool>
-    <!-- Always On Display -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-    <bool name="config_displayBlanksAfterDoze">true</bool>
-    <bool name="config_dozeAlwaysOnEnabled">false</bool>
     <!-- Google Wellbeing -->
     <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
     <!-- Wi-Fi 802.11r support -->
