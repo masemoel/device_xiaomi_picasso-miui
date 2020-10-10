@@ -667,4 +667,6 @@
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
     <!-- Google Wellbeing -->
     <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
+    <!-- Wi-Fi 802.11r support -->
+    <bool translatable="false" name="config_wifi_fast_bss_transition_enabled">true</bool>
 </resources>
