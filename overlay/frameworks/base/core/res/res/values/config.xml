@@ -656,9 +656,10 @@
     <string name="config_smartChargingResumeValue" translatable="false">0</string>
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
-    <!-- Does the battery LED support multiple colors?
-         Used to decide if the user can change the colors -->
+    <!-- LED stuff -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
     <bool name="config_multiColorBatteryLed">false</bool>
+    <bool name="config_FastChargingLedSupported">true</bool>
     <!-- Live display -->
     <bool name="config_liveDisplayAvailable">true</bool>
     <!-- Always On Display -->
@@ -669,4 +670,5 @@
     <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
     <!-- Wi-Fi 802.11r support -->
     <bool translatable="false" name="config_wifi_fast_bss_transition_enabled">true</bool>
+    <bool name="config_ignoreRssnrSignalLevel">true</bool>
 </resources>
