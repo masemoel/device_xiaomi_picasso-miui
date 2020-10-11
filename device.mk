@@ -13,7 +13,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
 
 -include $(LOCAL_PATH)/system_prop.mk
--include $(LOCAL_PATH)/system.prop
 -include $(LOCAL_PATH)/product_prop.mk
 
 PRODUCT_BUILD_SUPER_PARTITION := false
