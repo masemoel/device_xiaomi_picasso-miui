@@ -3,11 +3,6 @@ on early-init
     exec u:r:modprobe:s0 -- /system/bin/modprobe -a -d \
         /system/lib/modules wlan rmnet_perf rmnet_shs
 
-on boot
-    # selinux nodes, hide permissive state
-    chmod 0640 /sys/fs/selinux/enforce
-    chmod 0440 /sys/fs/selinux/policy
-
 service citsensor-hal-1-1  /vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
     override
     class late_start
