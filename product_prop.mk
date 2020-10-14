@@ -84,6 +84,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
 
+# Smart fps switching
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.vendor.smart_dfps.enable=false
+
 # Voice recording
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.audio.fluence.voicerec=true \
