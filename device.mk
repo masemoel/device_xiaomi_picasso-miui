@@ -40,8 +40,8 @@ PRODUCT_PACKAGES += \
     libaacwrapper
 
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
-    
+    $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/audio_platform_info.xml
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     BluetoothQti
