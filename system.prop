@@ -49,7 +49,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 ro.netflix.bsp_rev=Q6150-17263-1
 
 # Set stock DPI
-ro.sf.lcd_density=375
+ro.sf.lcd_density=420
 
 # Enable Mag filter
 persist.vendor.sensors.enable.mag_filter=true
