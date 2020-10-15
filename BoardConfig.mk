@@ -1,13 +1,11 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 AICP
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 BOARD_VENDOR := xiaomi
 DEVICE_PATH := device/xiaomi/picasso
-
-BUILD_BROKEN_DUP_RULES := true
 
 # Architecture
 TARGET_ARCH := arm64

@@ -1,5 +1,5 @@
 
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 AICP
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,8 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
 
--include $(LOCAL_PATH)/system_prop.mk
--include $(LOCAL_PATH)/product_prop.mk
+include $(LOCAL_PATH)/system_prop.mk
+include $(LOCAL_PATH)/system.prop
+include $(LOCAL_PATH)/product_prop.mk
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 PRODUCT_BUILD_SUPER_PARTITION := false
 BOARD_BUILD_PRODUCT_IMAGE := true
@@ -24,22 +26,13 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_BUILD_PRODUCT_IMAGE := true
 
-# Properties
-include $(LOCAL_PATH)/product_prop.mk
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
-
-# No A/B
+# A/B status
 AB_OTA_UPDATER := false
 
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
     vendor.xiaomi.hardware.fingerprintextension@1.0
-    
-# Charging
-PRODUCT_PACKAGES += \
-    charger_res_images \
-    product_charger_res_images
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -52,6 +45,11 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     BluetoothQti
+    
+# Charging
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
 
 # Configs
 PRODUCT_COPY_FILES += \
