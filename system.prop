@@ -68,3 +68,6 @@ persist.dbg.wfc_avail_ovr=1
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
+
+# OEM Unlock
+ro.oem_unlock_supported=0
