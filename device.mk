@@ -97,39 +97,6 @@ PRODUCT_PACKAGES += \
     vendor.nxp.nxpese@1.0:64 \
     vendor.nxp.nxpnfc@1.0:64
 
-# OpenGApps
-BUILD_GAPPS_PREBUILT_APK # - for apps
-BUILD_GAPPS_PREBUILT_SHARED_LIBRARY # - for shared libraries
-GAPPS_VARIANT := pico
-GAPPS_PRODUCT_PACKAGES += CalculatorGoogle
-GAPPS_PRODUCT_PACKAGES += CarrierServices
-GAPPS_PRODUCT_PACKAGES += CloudPrint2
-GAPPS_PRODUCT_PACKAGES += DigitalWellbeing
-GAPPS_PRODUCT_PACKAGES += GoogleContacts
-GAPPS_PRODUCT_PACKAGES += GoogleDialer
-GAPPS_PRODUCT_PACKAGES += GoogleWebViewOverlay
-GAPPS_PRODUCT_PACKAGES += LatinImeGoogle
-GAPPS_PRODUCT_PACKAGES += MarkupGoogle
-GAPPS_PRODUCT_PACKAGES += Photos
-GAPPS_PRODUCT_PACKAGES += PrebuiltBugle
-GAPPS_PRODUCT_PACKAGES += PrebuiltDeskClockGoogle
-GAPPS_PRODUCT_PACKAGES += SoundPicker
-GAPPS_PRODUCT_PACKAGES += Wallet
-GAPPS_PRODUCT_PACKAGES += Wallpapers
-GAPPS_PRODUCT_PACKAGES += WebViewGoogle
-GAPPS_EXCLUDED_PACKAGES := ConfigUpdater
-GAPPS_EXCLUDED_PACKAGES := GoogleCalendarSyncAdapter
-GAPPS_EXCLUDED_PACKAGES := GoogleFeedback
-GAPPS_EXCLUDED_PACKAGES := GoogleOneTimeInitializer
-GAPPS_EXCLUDED_PACKAGES := GooglePartnerSetup
-GAPPS_EXCLUDED_PACKAGES := GoogleTTS
-GAPPS_FORCE_PACKAGE_OVERRIDES := true
-GAPPS_FORCE_WEBVIEW_OVERRIDES := true
-GAPPS_FORCE_MMS_OVERRIDES := true
-GAPPS_FORCE_DIALER_OVERRIDES := true
-GAPPS_FORCE_MATCHING_DPI := true
-WITH_DEXPREOPT := true
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -163,4 +130,4 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/modules-20.7.30,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/lib/modules)
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+$(call inherit-product-if-exists, vendor/pixelgapps/build/opengapps-packages.mk)
