@@ -137,12 +137,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 
-BOARD_ROOT_EXTRA_SYMLINKS := \
-    /mnt/vendor/persist:/persist \
-    /vendor/bt_firmware:/bt_firmware \
-    /vendor/dsp:/dsp \
-    /vendor/firmware_mnt:/firmware
-
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     $(DEVICE_PATH)/sepolicy/private \
