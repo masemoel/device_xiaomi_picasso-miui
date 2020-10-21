@@ -130,4 +130,4 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/modules-20.7.30,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/lib/modules)
-$(call inherit-product-if-exists, vendor/pixelgapps/config.mk)
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
