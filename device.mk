@@ -57,6 +57,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-parts.xml
 
+# CustomDoze
+PRODUCT_PACKAGES += \
+    CustomDoze
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
