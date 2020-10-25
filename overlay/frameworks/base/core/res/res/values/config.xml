@@ -669,7 +669,6 @@
 
     <!-- Wi-Fi 802.11r support -->
     <bool translatable="false" name="config_wifi_fast_bss_transition_enabled">true</bool>
-    <bool name="config_ignoreRssnrSignalLevel">true</bool>
 
     <!-- Corner radius for bottom sheet system dialogs -->
     <dimen name="config_bottomDialogCornerRadius">16.0dip</dimen>
