@@ -17,6 +17,10 @@ vendor/lib/android.hardware.camera.provider@2.4-external.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 
+# aptX - from bramble-user 11 RD1A.200810.020
+-lib64/libaptX_encoder.so
+-lib64/libaptXHD_encoder.so
+
 # DPM
 framework/tcmclient.jar
 product/bin/dpmd
