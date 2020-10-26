@@ -14,27 +14,20 @@
  * limitations under the License.
  */
 
-<<<<<<< HEAD:parts/src/org/lineageos/settings/doze/DozeSettingsActivity.java
 package org.lineageos.settings.doze;
-=======
-package org.lineageos.settings.device.thermal;
->>>>>>> 98e63f8... picasso: fix DeviceSettings:parts/src/org/lineageos/settings/thermal/ThermalActivity.java
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-public class ThermalActivity extends PreferenceActivity {
+public class DozeSettingsActivity extends PreferenceActivity {
 
-    private static final String TAG_THERMAL = "thermal";
-    private static final String THERMAL_SCONFIG = "/sys/class/thermal/thermal_message/sconfig";
+    private static final String TAG_DOZE = "doze";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (FileUtils.fileExists(THERMAL_SCONFIG)) {
-            getFragmentManager().beginTransaction().replace(android.R.id.content,
-                    new ThermalSettingsFragment(), TAG_THERMAL).commit();
-        }
+        getFragmentManager().beginTransaction().replace(android.R.id.content,
+                new DozeSettingsFragment(), TAG_DOZE).commit();
     }
 }
