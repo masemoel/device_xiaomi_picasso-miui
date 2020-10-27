@@ -42,6 +42,10 @@ product/lib64/libdpmframework.so
 product/lib64/libdpmtcm.so
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk
 
+# HotwordEnrollment
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+
 # IMS
 # ims.apk: patched ImsServiceStateReceiver.shallShowHDIcon() to always return false
 -product/priv-app/ims/ims.apk|ce4b30992c383ded08eeae50d9c7c46bec3093d8
