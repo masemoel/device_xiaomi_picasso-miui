@@ -154,13 +154,21 @@ TARGET_USES_MKE2FS := true
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    $(DEVICE_PATH)/sepolicy/private \
     device/qcom/sepolicy/generic/private \
-    device/qcom/sepolicy/qva/private
+    device/qcom/sepolicy/qva/private \
+    device/custom/sepolicy/qcom/private \
+    $(DEVICE_PATH)/sepolicy/private
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
     device/qcom/sepolicy/generic/public \
-    device/qcom/sepolicy/qva/public
+    device/qcom/sepolicy/qva/public \
+    $(DEVICE_PATH)/sepolicy/public
+
+PRODUCT_PUBLIC_SEPOLICY_DIRS += \
+    device/qcom/sepolicy/product/public
+
+PRODUCT_PRIVATE_SEPOLICY_DIRS += \
+    device/qcom/sepolicy/product/private
 
 BOARD_ROOT_EXTRA_SYMLINKS := \
     /mnt/vendor/persist:/persist \
