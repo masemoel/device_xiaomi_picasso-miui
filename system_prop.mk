@@ -33,3 +33,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Netflix
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q855-16947-1
+
+# Subsystem ramdump
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.ssr.restart_level=ALL_ENABLE
