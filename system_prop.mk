@@ -6,11 +6,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.btstack.enable.twsplus=true \
     persist.vendor.btstack.enable.twsplussho=true \
     ro.bluetooth.library_name=libbluetooth_qti.so \
-    vendor.bluetooth.soc=cherokee
-    bluetooth.chip.vendor=brcm \
-    qcom.bluetooth.soc=rome \
-    ro.bt.bdaddr_path="/data/misc/bluetooth/bdaddr" \
-    persist.bt.enableAptXHD=true \
+    vendor.bluetooth.soc=cherokee \
     debug.performance.tuning=1
 
 # Fling Velocity
