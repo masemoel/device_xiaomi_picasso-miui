@@ -22,3 +22,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Face Unlock
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.face.moto_unlock_service.cam_id=5
+
+# Voice recording
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.audio.fluence.voicerec=true
