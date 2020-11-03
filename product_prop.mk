@@ -12,6 +12,19 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.adb.secure=0
 endif
 
+# Audio
+PRODUCT_PRODUCT_PROPERTIES += \
+    af.fast_track_multiplier=1 \
+    audio.offload.video=true \
+    audio.deep_buffer.media=true \
+    audio.sys.noisy.broadcast.delay=500 \
+    audio.sys.mute.latency.factor=2 \
+    audio.sys.routing.latency=0 \
+    audio.offload.min.duration.secs=30 \
+    audio.sys.offload.pstimeout.secs=3 \
+    ro.af.client_heap_size_kbyte=7168 \
+    media.stagefright.audio.deep=false
+
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.google.android.GoogleCamera,com.android.camera
