@@ -48,18 +48,6 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 # Set stock DPI
 ro.sf.lcd_density=420
 
-# RIL & VoLTE
-rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
-DEVICE_PROVISIONED=1
-ril.subscription.types=NV,RUIM
-ro.telephony.default_network=33,22
-telephony.lteOnCdmaDevice=1
-persist.vendor.radio.redir_party_num=1
-persist.vendor.radio.report_codec=1
-persist.dbg.volte_avail_ovr=1
-persist.dbg.vt_avail_ovr=1
-persist.dbg.wfc_avail_ovr=1
-
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 
