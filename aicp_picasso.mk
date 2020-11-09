@@ -33,13 +33,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="masemoel"
 
 # Build info
-BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=picasso \
     PRODUCT_NAME=picasso \
-    PRIVATE_BUILD_DISC="coral-user 11 RP1A.201005.004 6782484 release-keys"
+    PRIVATE_BUILD_DISC="coral-user 11 RP1A.201105.002 6869500 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
