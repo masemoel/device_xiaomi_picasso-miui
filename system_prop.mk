@@ -39,11 +39,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.fps.switch.default=true \
     vendor.display.idle_time=1100
 
-# Enable blurs
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.surface_flinger.supports_background_blur=1 \
-    ro.sf.blurs_are_expensive=1
-
 # Fling Velocity
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.min.fling_velocity=8000 \
