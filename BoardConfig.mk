@@ -55,9 +55,6 @@ TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 TARGET_BOOTLOADER_BOARD_NAME := lito
 TARGET_NO_BOOTLOADER := true
 
-# Camera
-TARGET_USES_PREBUILT_CAMERA_SERVICE := true
-
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
@@ -67,9 +64,6 @@ ifeq ($(HOST_OS),linux)
     WITH_DEXPREOPT ?= true
   endif
 endif
-
-# Display
-TARGET_USES_HWC2 := true
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
