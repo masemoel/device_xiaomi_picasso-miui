@@ -81,7 +81,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.settings.xml=/system/etc/media_profiles_vendor.xml \
     vendor.mm.enable.qcom_parser=63963135 \
     debug.stagefright.omx_default_rank.sw-audio=16 \
-    persist.vendor.audio.fluence.voicerec=true
+    persist.vendor.audio.fluence.voicerec=true \
+    ro.config.media_vol_steps=30 \
+    ro.config.vc_call_vol_steps=11
 
 # Memory Optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
