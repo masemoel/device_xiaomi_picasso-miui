@@ -55,6 +55,9 @@ TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 TARGET_BOOTLOADER_BOARD_NAME := lito
 TARGET_NO_BOOTLOADER := true
 
+# Camera
+TARGET_USES_QTI_CAMERA_DEVICE := true
+
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
@@ -64,6 +67,9 @@ ifeq ($(HOST_OS),linux)
     WITH_DEXPREOPT ?= true
   endif
 endif
+
+# Display
+TARGET_USES_HWC2 := true
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
@@ -78,10 +84,6 @@ BOARD_HAVE_QCOM_FM := true
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
-
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_picasso
-TARGET_RECOVERY_DEVICE_MODULES := libinit_picasso
 
 # Kernel
 BOARD_KERNEL_BASE := 0x0000
