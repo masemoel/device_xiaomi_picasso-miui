@@ -42,6 +42,9 @@ ro.control_privapp_permissions=log
 ro.config.low_ram=false
 ro.lmk.log_stats=true
 
+# Media
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+
 # Powersave
 ro.vendor.use_data_netmgrd=true
 ro.vold.umsdirtyratio=20
