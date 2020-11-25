@@ -37,6 +37,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="masemoel"
 
+# Adds face unlock if package is available on ROM source.
+TARGET_SUPPORT_FACE_UNLOCK := true
+
 # Build info
 BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
