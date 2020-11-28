@@ -763,4 +763,7 @@
     <string-array name="config_biometric_sensors" translatable="false" >
 	<item>0:2:15</item>
     </string-array>
+
+    <!-- Boolean indicating whether the wifi chipset has 5GHz frequency band support -->
+    <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
 </resources>
