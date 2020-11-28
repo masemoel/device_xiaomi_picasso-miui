@@ -653,9 +653,6 @@
         <item>30</item>
     </integer-array>
 
-    <!-- Whether device supports double tap to wake -->
-    <bool name="config_supportDoubleTapWake">true</bool>
-
     <!-- LED stuff -->
     <bool name="config_intrusiveBatteryLed">true</bool>
     <bool name="config_multiColorBatteryLed">false</bool>
