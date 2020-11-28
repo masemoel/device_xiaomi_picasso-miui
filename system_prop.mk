@@ -1,5 +1,5 @@
 # ART
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     pm.dexopt.ab-ota=speed-profile \
     dalvik.vm.dex2oat-filter=speed \
     dalvik.vm.image-dex2oat-filter=speed \
@@ -98,11 +98,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sys.fw.bservice_limit=5
 
 # Netflix
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     ro.netflix.bsp_rev=Q7250-19133-1
 
 # RCS
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     persist.rcs.supported=1
 
 # RIL
