@@ -27,6 +27,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
+    persist.camera.gyro.disable=0 \
+    persist.camera.privapp.list=org.codeaurora.snapcam,com.google.android.GoogleCamera,com.android.camera \
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.google.android.GoogleCamera,com.android.camera \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.google.android.GoogleCamera,com.android.camera
 
 # Graphics
