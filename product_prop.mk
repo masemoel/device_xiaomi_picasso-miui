@@ -45,7 +45,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Voice recording
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.audio.fluence.voicerec=true
-
-# Zygote
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.device_config.runtime_native.usap_pool_enabled=true
