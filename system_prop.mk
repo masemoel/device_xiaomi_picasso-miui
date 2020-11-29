@@ -89,14 +89,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=30 \
     ro.config.vc_call_vol_steps=11
 
-# Memory Optimizations
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.qti.sys.fw.bg_apps_limit=10 \
-    ro.vendor.qti.am.reschedule_service=true \
-    ro.vendor.qti.sys.fw.bservice_enable=true \
-    ro.vendor.qti.sys.fw.bservice_age=5000 \
-    ro.vendor.qti.sys.fw.bservice_limit=5
-
 # Netflix
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.netflix.bsp_rev=Q7250-19133-1
