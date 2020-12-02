@@ -157,9 +157,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     libnl
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
