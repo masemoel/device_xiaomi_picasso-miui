@@ -840,4 +840,7 @@
         <item>restart_bootloader</item>
         <item>restart_systemui</item>
     </string-array>
+
+    <!-- Enable Night display, which requires HWC 2.0. -->
+    <bool name="config_nightDisplayAvailable">true</bool>
 </resources>
