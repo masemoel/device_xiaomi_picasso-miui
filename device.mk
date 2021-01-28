@@ -96,6 +96,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CustomDoze
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+
 # Display/Graphics
 PRODUCT_PACKAGES += \
     libdisplayconfig \
