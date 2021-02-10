@@ -173,6 +173,19 @@ PRODUCT_PACKAGES += \
     NfcNci \
     SecureElement
 
+# OMX
+PRODUCT_PACKAGES += \
+    init.qti.media.sh \
+    libOmxAacEnc \
+    libOmxAmrEnc \
+    libOmxCore \
+    libOmxEvrcEnc \
+    libOmxG711Enc \
+    libOmxQcelp13Enc \
+    libOmxVdec \
+    libOmxVenc \
+    libstagefrighthw
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
