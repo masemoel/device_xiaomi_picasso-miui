@@ -218,6 +218,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.rtt.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.wifi.rtt.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.mifare.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service-qti
+
 # Powerstats
 PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service
