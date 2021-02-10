@@ -266,6 +266,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.2-service-qti
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
