@@ -14,11 +14,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="device_specific_settings_title">XiaomiParts</string>
     <string name="device_specific_settings_summary">Ajustes específicos de Redmi K30 5G.</string>
-    <string name="device_refresh_rate">TASA DE REFRESCO DE LA PANTALLA</string>
     <string name="device_cutout">NOTCH</string>
     <string name="device_min_refresh_rate">Tasa de refresco</string>
-    <string name="device_power_save_refresh_rate">Tasa de refresco con ahorro de batería</string>
-    <string name="device_power_save_refresh_rate_switch">Disminuye automáticamente la tasa de refresco cuando se activa el ahorro de batería.</string>
     <string name="device_pill_style_notch">Doble agujero</string>
     <string name="msg_device_need_restart">Por favor, reinicia la interfaz del sistema para hacer efectivo este ajuste.</string>
 
