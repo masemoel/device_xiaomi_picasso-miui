@@ -15,9 +15,24 @@ ro.vendor.qti.am.reschedule_service=true
 # Battery Property
 ro.charger.enable_suspend = 1
 
+# Benchmark
+ro.realme.boost=1
+ro.realmeboost.value=6969
+ro.realme.antutu-boost=100000000000
+
 # Bluetooth
 persist.vendor.bt.a2dp.aac_whitelist=false
 ro.bluetooth.library_name=libbluetooth_qti.so
+
+# br0LTE
+persist.dbg.br0lte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.vendor.ims.disableUserAgent=0
+
+# Cyberpunk
+ro.cyberpunk.support=true
+ro.cyberpunk.enabled=true
+ro.cyberpunk.graphic=ProGawdMaxUltraUltimate2021NoAdsPremiumVIPUltraOverclock
 
 # Data modules
 ro.vendor.use_data_netmgrd=true
@@ -35,16 +50,36 @@ ro.product.property_source_order=odm,vendor,product,system_ext,system
 # Fingerprint
 ro.fingerprint.cleanup.unused=false
 
+# Gaming
+ro.among.us.sus=true
+ro.among.us.win.match=true
+ro.among.us.press.power.button.for.impostor=true
+ro.among.us.fps=10000000000000
+ro.gfx.driver=rtx3090
+ro.rtx.enabled=true
+ro.genshin.graphics=ultra
+ro.gpu.memory=111g
+ro.performace.mode=ultraproextrememax
+ro.disable.thermals=true
+ro.disable.active.cooling=true
+ro.enable.battery.explosion=true
+ro.force.vsync.mode=84759082345723874502340928340'28340'982390443765978349fsp
+ro.pubg.certified=true
+ro.pubg.graphics.uhd=true
+ro.pubg.in.unban=true
+
 # GBoard
 ro.com.google.ime.kb_pad_port_l=7
 ro.com.google.ime.kb_pad_port_r=7
 ro.com.google.ime.kb_pad_land_l=14
 ro.com.google.ime.kb_pad_land_r=14
+ro.com.google.ime.kb_pad_port_b=1
 
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
 # Graphics
+debug.hwui.renderer=skiavk
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
 debug.sf.latch_unsignaled=1
@@ -54,9 +89,6 @@ ro.opengles.version=196610
 
 # HWC
 debug.sf.enable_hwc_vds=1
-
-#GBoard
-ro.com.google.ime.kb_pad_port_b=1
 
 # IMS
 persist.dbg.volte_avail_ovr=1
@@ -115,6 +147,10 @@ persist.timed.enable=true
 
 # Vendor
 ro.vendor.qti.va_aosp.support=1
+
+# Vo5G
+persist.dbg.Vo5G_avail_ovr=1
+persist.dbg.video_on_5G=1
 
 # Wi-Fi
 config.disable_rtt=true
