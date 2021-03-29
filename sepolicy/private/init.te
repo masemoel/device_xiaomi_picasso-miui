@@ -17,3 +17,4 @@ allow init debugfs_tracing_debug:dir mounton;
 
 # Allow init to write to sysfs_battery_supply
 allow init sysfs_battery_supply:file { setattr };
+allow init sysfs:file { setattr };

@@ -15,3 +15,5 @@ set_prop(vendor_init, exported3_system_prop);
 set_prop(vendor_init, vendor_cnd_prop)
 set_prop(vendor_init, vendor_cp_taper_term_mv_prop)
 set_prop(vendor_init, vendor_persist_camera_prop)
+
+allow vendor_init device:chr_file { getattr };

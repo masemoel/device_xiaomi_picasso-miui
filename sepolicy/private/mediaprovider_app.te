@@ -1,0 +1,4 @@
+allow mediaprovider_app theme_prop:file { read };
+allow mediaprovider_app theme_prop:file { open };
+allow mediaprovider_app theme_prop:file { getattr };
+allow mediaprovider_app theme_prop:file { map };

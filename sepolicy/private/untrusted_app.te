@@ -5,3 +5,12 @@ r_dir_file(untrusted_app, sysfs_usb_supply)
 get_prop(untrusted_app, vendor_persist_camera_prop);
 
 allow untrusted_app theme_prop:file { read getattr open };
+allow untrusted_app theme_prop:file { map };
+allow untrusted_app untrusted_app_all_devpts:chr_file { ioctl };
+
+allow untrusted_app virtual_ab_prop:file { open };
+allow untrusted_app virtual_ab_prop:file { getattr };
+allow untrusted_app virtual_ab_prop:file { map };
+allow untrusted_app vendor_default_prop:file { open };
+allow untrusted_app vendor_default_prop:file { getattr };
+allow untrusted_app vendor_default_prop:file { map };

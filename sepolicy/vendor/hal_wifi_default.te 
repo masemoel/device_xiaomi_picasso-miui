@@ -1,0 +1,9 @@
+init_daemon_domain(hal_wifi_default)
+allow hal_wifi_default vendor_tombstone_data_file:dir { search };
+allow hal_wifi_default vendor_tombstone_data_file:dir { read };
+allow hal_wifi_default vendor_tombstone_data_file:dir { open };
+allow hal_wifi_default vendor_tombstone_data_file:file { getattr };
+allow hal_wifi_default vendor_tombstone_data_file:dir { write };
+allow hal_wifi_default vendor_tombstone_data_file:dir { add_name };
+allow hal_wifi_default vendor_tombstone_data_file:file { create };
+allow hal_wifi_default vendor_tombstone_data_file:file { read write open };

@@ -1,0 +1,6 @@
+allow vendor_fm_app theme_prop:file { open };
+allow vendor_fm_app theme_prop:file { getattr };
+allow vendor_fm_app theme_prop:file { map };
+allow vendor_fm_app vendor_default_prop:file { open };
+allow vendor_fm_app vendor_default_prop:file { getattr };
+allow vendor_fm_app vendor_default_prop:file { map };

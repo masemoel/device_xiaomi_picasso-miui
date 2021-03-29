@@ -6,3 +6,8 @@ hal_client_domain(system_app, hal_mlipay)
 allow system_app system_suspend_control_service:service_manager { find };
 allow system_app sysfs_zram:dir { search };
 
+allow system_app sysfs_zram:file { read };
+allow system_app sysfs_zram:file { open };
+allow system_app sysfs_zram:file { getattr };
+allow system_app netd:binder { call };
+allow system_app installd:binder { call };
