@@ -1,11 +1,11 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.networkstack.tethering.xiaomi_sdm660"
-    android:versionCode="1"
-    android:versionName="1.0">
-    <application android:hasCode="false" />
+<manifest xmlns:google="http://schemas.google.com/apk/res/google"
+    package="com.google.android.networkstack.tethering.xiaomi_sdm660"
+    google:versionCode="1"
+    google:versionName="1.0">
+    <application google:hasCode="false" />
     <overlay
-      android:targetPackage="com.android.networkstack.tethering"
-      android:targetName="TetheringConfig"
-      android:isStatic="true"
-      android:priority="0"/>
+      google:targetPackage="com.google.android.networkstack.tethering"
+      google:targetName="TetheringConfig"
+      google:isStatic="true"
+      google:priority="0"/>
 </manifest>
