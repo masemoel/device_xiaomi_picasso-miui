@@ -41,6 +41,27 @@ service citsensor-hal-1-1  /vendor/bin/hw/vendor.xiaomi.hardware.citsensorservic
 service vendor.light-qti /system/bin/true
     disabled
 
+service boot_lc /system/bin/logcat -b all -D -f /cache/debug/boot_lc_full.txt
+    user system
+    group system
+    seclabel u:r:boot_debug:s0
+    disabled
+    oneshot
+
+service boot_lc_crash /system/bin/logcat -b crash -D -f /cache/debug/boot_lc_crash.txt
+    user system
+    group system
+    seclabel u:r:boot_debug:s0
+    disabled
+    oneshot
+
+service boot_lc_kernel /system/bin/logcat -b kernel -D -f /cache/debug/boot_lc_kernel.txt
+    user system
+    group system
+    seclabel u:r:boot_debug:s0
+    disabled
+    oneshot
+
 on property:init.svc.cnss_diag=running
     stop cnss_diag
 
@@ -77,3 +98,23 @@ on property:vendor.post_boot.parsed=1
 on property:persist.sys.device_provisioned=1
     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,6
     setprop dalvik.vm.dex2oat-threads 6
+
+on property:sys.boot_completed=1
+    stop boot_lc
+    stop boot_lc_crash
+    stop boot_lc_kernel
+
+on property:dev.bootcomplete=1
+    stop boot_lc
+    stop boot_lc_crash
+    stop boot_lc_kernel
+
+on property:init.svc.logd=running
+    # debug boot process
+    mkdir /cache/debug 0770 system system
+    rm /cache/debug/boot_lc_full.txt
+    rm /cache/debug/boot_lc_crash.txt
+    rm /cache/debug/boot_lc_kernel.txt
+    start boot_lc
+    start boot_lc_kernel
+    start boot_lc_crash
