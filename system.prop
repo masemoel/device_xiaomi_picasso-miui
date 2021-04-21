@@ -157,6 +157,9 @@ persist.timed.enable=true
 # OEM unlock
 ro.oem_unlock_supported=0
 
+# Perf
+ro.vendor.perf.scroll_opt=true
+
 # RIL
 ro.vendor.radio.features_common=3
 
