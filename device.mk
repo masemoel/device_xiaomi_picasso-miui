@@ -91,7 +91,9 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.3 \
     vendor.display.config@1.5 \
     vendor.display.config@2.0 \
-    vendor.qti.hardware.display.composer@3.0
+    vendor.qti.hardware.display.composer@3.0 \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -167,6 +169,7 @@ PRODUCT_COPY_FILES += \
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
+    com.gsma.services.nfc \
     NfcNci \
     SecureElement
 
@@ -199,7 +202,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.ims.xml \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.consumerir.xml \
     frameworks/native/data/etc/android.hardware.wifi.aware.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.wifi.aware.xml \
-    frameworks/native/data/etc/android.hardware.wifi.rtt.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.wifi.rtt.xml
+    frameworks/native/data/etc/android.hardware.wifi.rtt.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.wifi.rtt.xml \
+    frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.mifare.xml
 
 # Powerstats
 PRODUCT_PACKAGES += \

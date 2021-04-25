@@ -23,6 +23,9 @@ ro.realme.antutu-boost=100000000000
 # Bluetooth
 persist.vendor.bt.a2dp.aac_whitelist=false
 ro.bluetooth.library_name=libbluetooth_qti.so
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.btstack.enable.lpa=true
+persist.vendor.bt.a2dp.hal.implementation=true
 
 # br0LTE
 persist.dbg.br0lte_avail_ovr=1
@@ -94,6 +97,14 @@ debug.sf.enable_hwc_vds=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
+
+# IOP
+vendor.iop.enable_prefetch_ofr=1
+vendor.iop.enable_uxe=0
+
+# Iorap
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
 
 # Latch unsignaled buffer
 debug.sf.latch_unsignaled=1
