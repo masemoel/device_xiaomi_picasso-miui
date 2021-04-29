@@ -80,7 +80,6 @@ persist.vendor.overlay.izat.optin=rro
 ro.config.gnss.support=GPS,NavIC,BeiDou,GLONASS,Galileo
 
 # Graphics
-debug.hwui.renderer=skiavk
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
 debug.sf.latch_unsignaled=1
