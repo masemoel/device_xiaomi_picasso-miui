@@ -1,0 +1,4 @@
+allow hal_fingerprint_default system_data_root_file:file { getattr };
+allow hal_fingerprint_default system_data_root_file:file { read append };
+allow hal_fingerprint_default system_data_root_file:file { open };
+allow hal_fingerprint_default system_data_root_file:file { write };

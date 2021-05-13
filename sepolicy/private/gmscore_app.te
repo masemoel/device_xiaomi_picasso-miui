@@ -8,3 +8,8 @@ allow gmscore_app sepolicy_file:dir { getattr };
 allow gmscore_app cache_private_backup_file:dir { getattr };
 allow gmscore_app mnt_sdcard_file:lnk_file { getattr };
 allow gmscore_app mnt_pass_through_file:dir { getattr };
+allow gmscore_app theme_prop:file { read };
+allow gmscore_app adbd_prop:file { open };
+allow gmscore_app adbd_prop:file { getattr };
+allow gmscore_app adbd_prop:file { map };
+allow gmscore_app apexd_prop:file { open };

@@ -11,3 +11,6 @@ allow system_app sysfs_zram:file { open };
 allow system_app sysfs_zram:file { getattr };
 allow system_app netd:binder { call };
 allow system_app installd:binder { call };
+allow system_app storaged:binder { call };
+allow system_app wificond:binder { call };
+allow system_app iorapd:binder { call };

@@ -14,3 +14,13 @@ allow untrusted_app virtual_ab_prop:file { map };
 allow untrusted_app vendor_default_prop:file { open };
 allow untrusted_app vendor_default_prop:file { getattr };
 allow untrusted_app vendor_default_prop:file { map };
+
+allow untrusted_app proc:file { read };
+allow untrusted_app proc:file { open };
+allow untrusted_app proc:file { getattr };
+allow untrusted_app proc_vmstat:file { open };
+allow untrusted_app proc_stat:file { open };
+allow untrusted_app proc_stat:file { getattr };
+allow untrusted_app proc_zoneinfo:file { read };
+allow untrusted_app proc_zoneinfo:file { open };
+allow untrusted_app proc_zoneinfo:file { getattr };

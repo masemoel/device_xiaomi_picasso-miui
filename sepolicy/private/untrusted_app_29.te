@@ -13,3 +13,4 @@ allow untrusted_app_29 serialno_prop:file { getattr };
 allow untrusted_app_29 vendor_default_prop:file { open };
 allow untrusted_app_29 vendor_default_prop:file { getattr };
 allow untrusted_app_29 vendor_default_prop:file { map };
+allow untrusted_app_29 theme_prop:file { read };
