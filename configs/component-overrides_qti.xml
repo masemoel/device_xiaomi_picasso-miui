@@ -19,5 +19,6 @@
         <component class=".hfpclient.HeadsetClientService" enabled="false" />
         <component class=".hid.HidDeviceService" enabled="true" />
         <component class=".hid.HidHostService" enabled="true" />
+        <component class=".sap.SapService" enabled="true" />
     </component-override>
 </config>
