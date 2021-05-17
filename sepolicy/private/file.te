@@ -26,6 +26,3 @@ type vendor_sysfs_graphics, sysfs_type, fs_type;
 type vendor_sysfs_kgsl, sysfs_type, fs_type;
 type vendor_sysfs_msm_subsys, sysfs_type, fs_type;
 type vendor_sysfs_scsi_host, sysfs_type, fs_type;
-
-# sfX boot_debug
-type boot_log_file, file_type, data_file_type, core_data_file_type;
