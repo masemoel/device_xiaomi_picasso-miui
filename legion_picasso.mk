@@ -28,10 +28,17 @@ TARGET_SUPPORT_FACE_UNLOCK := true
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# GApps
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+WITH_GAPPS := true
+
+REMOVE_GAPPS_PACKAGES += \
+    GoogleOneTimeInitializer \
+    WellbeingPrebuilt
+
 # LegionOS maintainter
 LEGION_BUILD_TYPE := OFFICIAL
 LEGION_MAINTAINER := masemoel
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.maintainer.name=masemoel
-
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
