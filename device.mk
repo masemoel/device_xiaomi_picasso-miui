@@ -37,7 +37,8 @@ PRODUCT_PACKAGES += \
 
 # APN
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+    $(LOCAL_PATH)/configs/apns-conf-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
+    $(LOCAL_PATH)/configs/apns-conf-s.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
 
 # Atrace
 PRODUCT_PACKAGES += \
@@ -168,7 +169,7 @@ PRODUCT_COPY_FILES += \
 
 # Modules
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/modules-21.5.20,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/lib/modules)
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/modules-21.6.16,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/lib/modules)
     
 # NFC
 PRODUCT_PACKAGES += \
