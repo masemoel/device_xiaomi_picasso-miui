@@ -1473,4 +1473,7 @@
 
     <!-- Whether device has fingerprint on power button -->
     <bool name="config_powerButtonFingerprint">true</bool>
+
+    <!-- Enables swipe versus poly-finger touch disambiguation in the KeyboardView -->
+    <bool name="config_swipeDisambiguation">false</bool>
 </resources>
