@@ -161,6 +161,7 @@ ro.oem_unlock_supported=0
 ro.vendor.perf.scroll_opt=true
 
 # RIL
+persist.vendor.radio.aosp_usr_pref_sel=true
 ro.vendor.radio.features_common=3
 
 # Subsystem ramdump
