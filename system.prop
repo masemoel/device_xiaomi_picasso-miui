@@ -85,7 +85,7 @@ ro.config.gnss.support=GPS,NavIC,BeiDou,GLONASS,Galileo
 # Graphics
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
-debug.sf.latch_unsignaled=1
+debug.sf.latch_unsignaled=0
 debug.cpurend.vsync=false
 dev.pm.dyn_samplingrate=1
 ro.opengles.version=196610
@@ -108,9 +108,6 @@ vendor.iop.enable_uxe=0
 # Iorap
 iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
-
-# Latch unsignaled buffer
-debug.sf.latch_unsignaled=1
 
 # Media
 media.aac_51_output_enabled=true
