@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_picasso.mk
+    $(LOCAL_DIR)/aicp_picasso.mk
     
 COMMON_LUNCH_CHOICES := \
-    legion_picasso-eng \
-    legion_picasso-userdebug \
-    legion_picasso-user
+    aicp_picasso-eng \
+    aicp_picasso-userdebug \
+    aicp_picasso-user
