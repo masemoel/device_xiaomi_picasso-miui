@@ -49,6 +49,8 @@ PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
 
 # Audio
+TARGET_ENABLE_AUDIO_ULL := true
+
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     libaacwrapper
