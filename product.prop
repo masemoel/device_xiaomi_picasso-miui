@@ -53,7 +53,7 @@ pm.sleep_mode=1
 ro.build.shutdown_timeout=2
 
 # Telephony
-ro.telephony.default_network=33,22
+ro.telephony.default_network=33,33
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
