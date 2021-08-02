@@ -99,6 +99,11 @@ public final class ThermalUtils {
              if (modes.length < 5) value = null;
          }
 
+        if (value != null) {
+             String[] modes = value.split(":");
+             if (modes.length < 5) value = null;
+         }
+
         if (value == null || value.isEmpty()) {
             value = THERMAL_BENCHMARK + ":" + THERMAL_BROWSER + ":" + THERMAL_CAMERA + ":" +
                     THERMAL_DIALER + ":" + THERMAL_GAMING + ":" + THERMAL_YOUTUBE;
