@@ -22,9 +22,6 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
-    <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">true</bool>
-
     <!-- SELinux status -->
     <bool name="config_show_selinux_status">true</bool>
 
