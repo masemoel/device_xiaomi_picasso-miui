@@ -40,7 +40,8 @@ debug.sdm.support_writeback=0
 ro.control_privapp_permissions=log
 
 # LMKD
-ro.config.low_ram = false
+ro.config.low_ram=false
+ro.lmk.log_stats=true
 
 # Powersave
 ro.vendor.use_data_netmgrd=true
