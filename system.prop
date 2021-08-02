@@ -90,16 +90,8 @@ debug.cpurend.vsync=false
 dev.pm.dyn_samplingrate=1
 ro.opengles.version=196610
 
-# HWC
-debug.sf.enable_hwc_vds=1
-
 # Force triple frame buffers
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
-
-# IMS
-persist.dbg.volte_avail_ovr=1
-persist.dbg.vt_avail_ovr=1
-persist.dbg.wfc_avail_ovr=1
 
 # IOP
 vendor.iop.enable_prefetch_ofr=1
