@@ -22,12 +22,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Hotword blobs
 $(call inherit-product, vendor/xiaomi/google/google.mk)
 
-# MIUI Camera
-$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
-
-# Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_TARGET_VNDK_VERSION := 30
