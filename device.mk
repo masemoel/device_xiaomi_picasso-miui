@@ -22,9 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Hotword blobs
 $(call inherit-product, vendor/xiaomi/google/google.mk)
 
+PRODUCT_BOARD_PLATFORM := lito
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_TARGET_VNDK_VERSION := 30
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # ANT+
 PRODUCT_PACKAGES += \
