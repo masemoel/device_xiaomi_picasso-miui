@@ -3,6 +3,11 @@ audio.offload.min.duration.secs=30
 ro.config.media_vol_steps=30
 ro.config.vc_call_vol_steps=11
 
+# Battery
+persist.vendor.cp.fcc_main_ua=400000
+persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
+persist.vendor.cp.taper_term_mv=7000
+
 # Blurs
 debug.sf.disable_backpressure=1
 ro.surface_flinger.supports_background_blur=1
