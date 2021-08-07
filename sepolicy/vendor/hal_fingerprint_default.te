@@ -1,2 +1,0 @@
-allow hal_fingerprint_default system_data_root_file:file { getattr read append open write };
-allow hal_fingerprint_default system_data_root_file:dir { read };

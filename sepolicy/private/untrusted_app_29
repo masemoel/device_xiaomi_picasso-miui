@@ -1,1 +1,0 @@
-allow untrusted_app_29 untrusted_app_29:fifo_file { ioctl };
