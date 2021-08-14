@@ -45,7 +45,7 @@ ro.vendor.use_data_netmgrd=true
 persist.vendor.data.mode=concurrent
 
 # DPI
-ro.sf.lcd_density=440
+qemu.sf.lcd_density=420
 
 # DPM
 persist.vendor.dpm.feature=11
