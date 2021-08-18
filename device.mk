@@ -253,6 +253,7 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
     init.qcom.rc \
+    init.performance_level.rc \
     init.recovery.qcom.rc
 
 # Remove packages
