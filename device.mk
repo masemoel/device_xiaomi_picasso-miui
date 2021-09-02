@@ -258,6 +258,10 @@ include $(LOCAL_PATH)/system.prop
 include $(LOCAL_PATH)/system_ext.prop
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
+# QTI
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.systemhelper@1.0.vendor:64
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
