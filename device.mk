@@ -41,7 +41,8 @@ PRODUCT_PACKAGES += \
 # APN
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
-    $(LOCAL_PATH)/configs/apns-conf-s.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+    $(LOCAL_PATH)/configs/apns-conf-s.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml \
+    $(LOCAL_PATH)/configs/spn-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/spn-conf.xml
 
 # Atrace
 PRODUCT_PACKAGES += \
