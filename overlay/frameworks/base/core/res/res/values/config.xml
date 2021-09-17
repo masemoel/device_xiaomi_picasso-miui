@@ -1506,4 +1506,7 @@
     
     <!-- Pocket lock -->
     <bool name="config_pocketModeSupported">true</bool>
+    
+    <!-- Whether the device has a high aspect ratio -->
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
 </resources>
