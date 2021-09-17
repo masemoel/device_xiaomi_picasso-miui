@@ -15,4 +15,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Whether device supports switching the display refresh rate -->
     <bool name="config_device_supports_switch_refreshrate">true</bool>
+    
+    <!-- Show/hide the QS tile, if device supports switching display refreshrates or not. Default value is false. -->
+    <bool name="enableRefreshrateTile">true</bool>
+
+    <!-- Integer value of the maximum/peak display refreshrate (e.g. 90) -->
+    <integer name="PeakRefresh">120</integer>
 </resources>
