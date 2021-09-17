@@ -1503,4 +1503,7 @@
     
     <!-- Specify custom blanking delay of the display -->
     <integer name="config_screen_off_delay">0</integer>
+    
+    <!-- Pocket lock -->
+    <bool name="config_pocketModeSupported">true</bool>
 </resources>
