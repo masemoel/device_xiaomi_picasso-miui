@@ -36,4 +36,7 @@
 
     <!-- Whether to show min/max refresh rate in display settings -->
     <bool name="config_show_refresh_rate_controls">true</bool>
+    
+    <!--  Enable display touch sensitivity switch -->
+    <bool name="config_show_touch_sensitivity">true</bool>
 </resources>
