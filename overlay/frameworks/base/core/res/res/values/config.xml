@@ -1513,4 +1513,7 @@
     
     <!-- Whether the device has a high aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
+    
+    <!-- Force apps to assume that you don't have a menu key (useful for older apps) -->
+    <integer name="config_overrideHasPermanentMenuKey">2</integer>
 </resources>
