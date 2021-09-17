@@ -16,7 +16,7 @@
 */
 -->
 <intent-filter>
-    <action android:name="com.android.settings.device.DOZE_SETTINGS" />
+    <action android:name="com.aicp.settings.device.DOZE_SETTINGS" />
     <category android:name="android.intent.category.DEFAULT" />
 </intent-filter>
 
