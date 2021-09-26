@@ -161,6 +161,7 @@ persist.vendor.radio.aosp_usr_pref_sel=true
 ro.vendor.radio.features_common=3
 
 # Subsystem ramdump
+persist.vendor.ssr.enable_ramdumps=1
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # Time-services
