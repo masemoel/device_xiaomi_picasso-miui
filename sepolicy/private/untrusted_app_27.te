@@ -1,2 +1,11 @@
 get_prop(untrusted_app_27, vendor_persist_camera_prop);
 allow untrusted_app_27 theme_prop:file { read };
+allow untrusted_app_27 proc_version:file { read open getattr write };
+allow untrusted_app_27 proc_loadavg:file { read open getattr write };
+allow untrusted_app_27 proc_stat:file { read open getattr write };
+allow untrusted_app_27 proc_net:file { read };
+allow untrusted_app_27 exported_wifi_prop:file { read open map getattr write };
+allow untrusted_app_27 apk_data_file:file { setattr };
+allow untrusted_app_27 net_dns_prop:file { open };
+allow untrusted_app_27 anr_data_file:dir { read open write };
+allow untrusted_app_27 postinstall_mnt_dir:dir { getattr };
