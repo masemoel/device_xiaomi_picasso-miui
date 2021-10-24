@@ -47,6 +47,9 @@ debug.sdm.support_writeback=0
 # Hax
 ro.control_privapp_permissions=log
 
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
