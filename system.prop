@@ -87,6 +87,7 @@ ro.config.gnss.support=GPS,NavIC,BeiDou,GLONASS,Galileo
 
 # Graphics
 debug.sf.enable_hwc_vds=1
+debug.sf.frame_rate_multiple_threshold=120
 debug.sf.hw=1
 debug.sf.latch_unsignaled=0
 debug.cpurend.vsync=false
