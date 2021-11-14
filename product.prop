@@ -48,6 +48,7 @@ debug.sdm.support_writeback=0
 debug.sf.hw=1
 debug.sf.latch_unsignaled=0
 renderthread.skia.reduceopstasksplitting=true
+ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.msmnile.api30
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.surface_flinger.use_color_management=true
