@@ -67,7 +67,6 @@ BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
 
 # Platform
 TARGET_BOARD_PLATFORM := lito
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno620
 BOARD_USES_QCOM_HARDWARE := true
 
 # A/B status
