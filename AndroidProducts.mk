@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_picasso.mk
+    $(LOCAL_DIR)/lineage_picasso.mk
     
 COMMON_LUNCH_CHOICES := \
-    aicp_picasso-eng \
-    aicp_picasso-userdebug \
-    aicp_picasso-user
+    lineage_picasso-eng \
+    lineage_picasso-userdebug \
+    lineage_picasso-user

@@ -8,11 +8,11 @@
 # Inherit from picasso device
 $(call inherit-product, device/xiaomi/picasso/device.mk)
 
-# Inherit some common AICP stuff.
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
+# Inherit some common crDroid stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aicp_picasso
+PRODUCT_NAME := lineage_picasso
 PRODUCT_DEVICE := picasso
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := K30 5G
