@@ -35,7 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     
 # SafetyNet
 PRODUCT_OVERRIDE_INFO := true
-PRODUCT_OVERRIDE_FINGERPRINT := "google/barbet/barbet:11/RD2A.210905.002/7513089:user/release-keys"
+PRODUCT_OVERRIDE_FINGERPRINT := "google/barbet/barbet:12/SQ1A.211205.008/7888514:user/release-keys"
     
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
