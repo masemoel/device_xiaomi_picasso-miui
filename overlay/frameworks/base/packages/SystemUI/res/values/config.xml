@@ -95,5 +95,5 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          with a rear-mounted sensor want this, but certain devices have
          the sensor embedded in the power key and listening all the time
          causes a poor experience. -->
-    <bool name="config_fingerprintWakeAndUnlock">false</bool>
+    <bool name="config_fingerprintWakeAndUnlock">true</bool>
 </resources>
