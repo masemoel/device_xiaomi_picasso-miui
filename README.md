@@ -1,11 +1,11 @@
-![AICP](https://raw.githubusercontent.com/AICP/vendor_aicp/q10.0/docs/xda_template/logo_black.png "AICP")
+![crDroid](http://i.imgur.com/BE3pE0l.png "crDroid")
 
-AICP 16.1 (A11/R) for Redmi K30 5G (picasso)
+crDroid 7 (A11/R) for Redmi K30 5G (picasso)
 ======================================
 
 # How to build
 
-Download AICP's source and picasso repos. You can have a look at my manifest:
+Download crDroid's source and picasso repos. You can have a look at my manifest:
 
 https://github.com/masemoel/local_manifests/blob/master/picasso_r.xml
 
