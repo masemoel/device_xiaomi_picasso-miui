@@ -86,7 +86,7 @@ persist.vendor.overlay.izat.optin=rro
 ro.config.gnss.support=GPS,NavIC,BeiDou,GLONASS,Galileo
 
 # Graphics
-debug.sf.enable_hwc_vds=1
+debug.sf.enable_hwc_vds=0
 debug.sf.frame_rate_multiple_threshold=120
 debug.cpurend.vsync=false
 dev.pm.dyn_samplingrate=1
