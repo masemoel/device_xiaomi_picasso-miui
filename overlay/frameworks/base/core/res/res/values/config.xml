@@ -140,18 +140,6 @@
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">false</bool>
 
-    <!-- Set to true if the wifi display supports compositing content stored
-         in gralloc protected buffers.  For this to be true, there must exist
-         a protected hardware path for surface flinger to composite and send
-         protected buffers to the wifi display video encoder.
-         If this flag is false, we advise applications not to use protected
-         buffers (if possible) when presenting content to a wifi display because
-         the content may be blanked.
-         This flag controls whether the {@link Display#FLAG_SUPPORTS_PROTECTED_BUFFERS}
-         flag is set for wifi displays.
-    -->
-    <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
-
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
     <bool name="skip_restoring_network_selection">true</bool>
@@ -1342,9 +1330,6 @@
          1 - Nav bar is always opaque when either the freeform stack or docked stack is visible.
          -->
     <integer name="config_navBarOpacityMode">0</integer>
-
-    <!-- Wi-Fi display -->
-    <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- All-rotations overlay -->
     <bool name="config_allowAllRotations">true</bool>
