@@ -33,9 +33,5 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.maintainer.name=masemoel
     
-# SafetyNet
-PRODUCT_OVERRIDE_INFO := true
-PRODUCT_OVERRIDE_FINGERPRINT := "google/barbet/barbet:12/SQ1A.211205.008/7888514:user/release-keys"
-    
 # Security patch level
-VENDOR_SECURITY_PATCH := 2021-11-01
+VENDOR_SECURITY_PATCH := 2021-10-01
