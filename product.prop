@@ -8,11 +8,6 @@ persist.vendor.cp.fcc_main_ua=400000
 persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
 persist.vendor.cp.taper_term_mv=7000
 
-# Blurs
-debug.sf.disable_backpressure=1
-ro.surface_flinger.supports_background_blur=1
-ro.sf.blurs_are_expensive=1
-
 # Camera
 persist.camera.gyro.disable=0
 persist.camera.privapp.list=org.codeaurora.snapcam,com.google.android.GoogleCamera,com.android.camera
