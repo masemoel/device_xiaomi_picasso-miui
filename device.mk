@@ -209,7 +209,6 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget \
     NotchNoFillOverlay \
-    NoCutoutOverlay \
     NotchBarKiller
 
 # Partitions
