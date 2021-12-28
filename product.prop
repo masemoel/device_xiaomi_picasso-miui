@@ -42,7 +42,16 @@ ro.face.moto_unlock_service.cam_id=5
 ro.opa.eligible_device=true
 
 # Graphics
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 debug.sdm.support_writeback=0
+debug.sf.hw=1
+debug.sf.latch_unsignaled=0
+renderthread.skia.reduceopstasksplitting=true
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.use_context_priority=true
 
 # Hax
 ro.control_privapp_permissions=log
