@@ -272,9 +272,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/xiaomi/picasso \
-    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
-    vendor/qcom/opensource/commonsys/system/bt/conf
+    device/xiaomi/picasso
 
 # Telephony
 PRODUCT_PACKAGES += \
