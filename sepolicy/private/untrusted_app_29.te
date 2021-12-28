@@ -9,7 +9,6 @@ allow untrusted_app_29 serialno_prop:file { open getattr read };
 allow untrusted_app_29 vendor_default_prop:file { open map getattr };
 allow untrusted_app_29 theme_prop:file { read open getattr };
 allow untrusted_app_29 rootfs:dir { read };
-allow untrusted_app_29 cgroup_bpf:dir { search };
 allow untrusted_app_29 adbd_prop:file { open getattr map };
 allow untrusted_app_29 apexd_prop:file { open getattr map };
 allow untrusted_app_29 apk_verity_prop:file { open getattr map };
