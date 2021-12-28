@@ -1,8 +1,8 @@
-allow untrusted_app_29 hal_memtrack_hwservice:hwservice_manager { find };
 get_prop(untrusted_app_29, vendor_fp_prop)
 get_prop(untrusted_app_29, vendor_payment_security_prop)
-
 type payment_security_prop;
+
+allow untrusted_app_29 hal_memtrack_hwservice:hwservice_manager { find };
 allow untrusted_app_29 payment_security_prop:file { read open getattr map };
 allow untrusted_app_29 proc_tty_drivers:file { read open getattr };
 allow untrusted_app_29 serialno_prop:file { open getattr read };
@@ -18,3 +18,4 @@ allow untrusted_app_29 proc_net:file { read open getattr write };
 allow untrusted_app_29 proc_interrupts:file { read open getattr write };
 allow untrusted_app_29 proc_diskstats:file { read open getattr write };
 allow untrusted_app_29 sysfs:dir { read open write };
+allow untrusted_app_29 zygote:unix_stream_socket { getopt };

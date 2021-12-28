@@ -13,3 +13,5 @@ allow system_app iorapd:binder { call };
 allow system_app system_suspend:binder { call };
 allow system_app vold:binder { call };
 allow system_app privapp_data_file:dir { search };
+allow system_app zygote:unix_stream_socket { getopt };
+allow system_app proc_pagetypeinfo:file { read open getattr };

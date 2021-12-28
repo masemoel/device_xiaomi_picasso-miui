@@ -1,0 +1,2 @@
+allow vendor_qti_init_shell usb_control_prop:file { read };
+allow vendor_qti_init_shell usb_control_prop:property_service { set };
