@@ -1,13 +1,13 @@
 ![crDroid](http://i.imgur.com/BE3pE0l.png "crDroid")
 
-crDroid 7 (A11/R) for Redmi K30 5G (picasso)
+crDroid 8 (A12/S) for Redmi K30 5G (picasso)
 ======================================
 
 # How to build
 
 Download crDroid's source and picasso repos. You can have a look at my manifest:
 
-https://github.com/masemoel/local_manifests/blob/master/picasso_r.xml
+https://github.com/masemoel/local_manifests/blob/master/picasso_s.xml
 
 Then go to the source folder and run:
 
