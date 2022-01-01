@@ -59,6 +59,10 @@ ro.control_privapp_permissions=log
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
+# LMKD
+ro.config.low_ram=false
+ro.lmk.log_stats=true
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
