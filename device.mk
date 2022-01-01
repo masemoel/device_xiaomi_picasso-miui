@@ -257,7 +257,8 @@ PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
     init.qcom.rc \
     init.performance_level.rc \
-    init.recovery.qcom.rc
+    init.recovery.qcom.rc \
+    init.recovery.qcom.sh
 
 # Remove packages
 PRODUCT_PACKAGES += \
