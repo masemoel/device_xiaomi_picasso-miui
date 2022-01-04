@@ -92,6 +92,7 @@ debug.sf.disable_backpressure=1
 ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Misc properties
+persist.sys.binary_xml=false
 persist.sys.force_sw_gles=1
 persist.vendor.radio.atfwd.start=true
 ro.kernel.qemu.gles=0
