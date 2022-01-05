@@ -32,6 +32,9 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 # Maintainter
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.maintainer.name=masemoel
+
+# Quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
     
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-10-01
