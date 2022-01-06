@@ -23,3 +23,7 @@ allow untrusted_app proc_net:file { read open getattr write };
 allow untrusted_app proc_net_tcp_udp:file { getattr };
 allow untrusted_app net_dns_prop:file { open getattr map write };
 allow untrusted_app proc_version:file { read open getattr write };
+allow untrusted_app qemu_hw_prop:file { read open getattr write map };
+allow untrusted_app proc_tty_drivers:file { read };
+allow untrusted_app qemu_sf_lcd_density_prop:file { read };
+allow untrusted_app serialno_prop:file { read };

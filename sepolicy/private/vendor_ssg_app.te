@@ -1,0 +1,2 @@
+type vendor_ssg_app, domain;
+allow vendor_ssg_app app_data_file:lnk_file { getattr };

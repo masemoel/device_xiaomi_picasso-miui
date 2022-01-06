@@ -15,3 +15,5 @@ allow system_app vold:binder { call };
 allow system_app privapp_data_file:dir { search };
 allow system_app zygote:unix_stream_socket { getopt };
 allow system_app proc_pagetypeinfo:file { read open getattr };
+allow system_app qemu_hw_prop:file { read open map getattr write };
+allow system_app vendor_default_prop:property_service { set };
