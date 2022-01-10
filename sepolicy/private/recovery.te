@@ -3,3 +3,5 @@ recovery_only(`
     permissive init;
     permissive recovery;
 ')
+
+allow recovery pstorefs:dir r_dir_perms;

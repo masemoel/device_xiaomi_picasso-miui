@@ -1,0 +1,2 @@
+type hal_misys_default, domain;
+allow hal_misys_default unlabeled:dir { search };

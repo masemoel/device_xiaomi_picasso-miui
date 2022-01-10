@@ -1,0 +1,2 @@
+type vendor_hal_neuralnetworks_default, domain;
+allow vendor_hal_neuralnetworks_default default_prop:file { read open getattr map };
