@@ -165,6 +165,9 @@ ro.surface_flinger.set_touch_timer_ms=200
 persist.vendor.radio.aosp_usr_pref_sel=true
 ro.vendor.radio.features_common=3
 
+# RescueParty
+persist.sys.disable_rescue=true
+
 # Subsystem ramdump
 persist.vendor.ssr.enable_ramdumps=1
 persist.vendor.ssr.restart_level=ALL_ENABLE
