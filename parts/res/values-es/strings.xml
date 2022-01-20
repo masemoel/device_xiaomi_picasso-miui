@@ -13,16 +13,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="device_specific_settings_title">Estilo del notch</string>
-    <string name="device_specific_settings_summary">Intercambia el estilo del notch entre píldora o separado.</string>
-    <string name="device_pill_style_notch">Notch al estilo píldora.</string>
+    <string name="device_specific_settings_summary">Intercambia el estilo del notch entre relleno o sin relleno.</string>
+    <string name="device_pill_style_notch">Rellenar notch (requiere reinicio del UI)</string>
 
     <!-- DT2W -->
     <string name="dt2w_enable_title">Doble toque para despertar</string>
-    <string name="dt2w_enable_summary">Toca dos veces cualquier punto de la pantalla para activar el dispositivo.</string>
+    <string name="dt2w_enable_summary">Toca dos veces cualquier punto de la pantalla en suspensión para activar el dispositivo.</string>
 
     <!-- Dirac settings -->
-    <string name="dirac_title">Mi sound enhancer</string>
-    <string name="dirac_summary">Optimizar la calidad del audio</string>
+    <string name="dirac_enable">Activar el ecualizador Dirac</string>
+    <string name="dirac_title">Ecualizador Dirac</string>
+    <string name="dirac_summary">Optimiza la calidad del audio.</string>
     <string name="dirac_headset_title">Selecciona el tipo de auriculares</string>
     <string name="dirac_preset_title">Selecciona un preajuste</string>
     <!-- Dirac settings: Headset types -->
@@ -61,23 +62,40 @@
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
     <string name="dirac_preset_bass_booster">Optimizador de graves</string>
+    <string name="dirac_hifi_enable_title"> Activar Hi-fi</string>
+    <string name="dirac_hifi_title">Sonido de alta fidelidad</string>
+    <string name="dirac_hifi_summary">Reduce el rudio y la distorsión y mejora la calidad del audio.</string>
 
     <!-- Thermal Profiles -->
-    <string name="thermal_title">Thermal Profiles</string>
+    <string name="thermal_title">Perfiles térmicos</string>
     <string name="thermal_summary">Ajusta los perfiles térmicos de cada aplicación para un rendimiento óptimo.</string>
     <string name="thermal_default">Por defecto</string>
     <string name="thermal_benchmark">Benchmark</string>
     <string name="thermal_browser">Navegador web</string>
     <string name="thermal_camera">Cámara</string>
     <string name="thermal_dialer">Llamadas</string>
-    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_gaming">Juegos</string>
     <string name="thermal_youtube">YouTube</string>
 
      <!-- Dirac QS tile -->
-    <string name="dirac_qs_tile_title">Mi sound enhancer</string>
+    <string name="dirac_qs_tile_title">Ecualizador Dirac</string>
 
     <!-- Clear Speaker -->
-    <string name="clear_speaker_title">Limpia el altavoz</string>
-    <string name="clear_speaker_summary">Reproduce un sonido de 30 segundos para limpiar el altavoz</string>
+    <string name="clear_speaker_title">Limpiar altavoz</string>
+    <string name="clear_speaker_summary">Reproduce un sonido de 30 segundos para limpiar el altavoz.</string>
     <string name="clear_speaker_description">Ejecuta esta función una o dos veces cuando sientas que el altavoz está taponado por el polvo. Asegúrate de tener el volumen al máximo.\n\Si el altavoz está muy taponado, ejecútalo entre 2 y 5 veces mientras agitas el dispositivo.</string>
+
+    <!-- Ambient settings -->
+    <string name="ambient_enable">Activar pantalla ambiente</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">Ajustar respuesta táctil</string>
+    <string name="touch_game_mode_title">Activar modo juego</string>
+    <string name="touch_game_mode_summary">Activar los ajustes manuales de respuesta táctil para una mejor experiencia gaming.</string>
+    <string name="touch_response_title">Respuesta táctil</string>
+    <string name="touch_response_summary">Controla la respuesta táctil.</string>
+    <string name="touch_sensitivity_title">Sensibilidad táctil</string>
+    <string name="touch_sensitivity_summary">Controla la sensibilidad táctil ante toques simultáneos o repetidos.</string>
+    <string name="touch_resistant_title">Control del área táctil</string>
+    <string name="touch_resistant_summary">Reduce la sensibilidad táctil en los bordes de la pantalla para evitar toques indeseados.</string>
 </resources>
