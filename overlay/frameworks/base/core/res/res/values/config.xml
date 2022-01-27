@@ -1463,7 +1463,7 @@
     <integer name="config_screen_off_delay">0</integer>
     
     <!-- Pocket lock -->
-    <bool name="config_pocketModeSupported">false</bool>
+    <bool name="config_pocketModeSupported">true</bool>
     
     <!-- Whether the device has a high aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
