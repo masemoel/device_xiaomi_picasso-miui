@@ -8,5 +8,5 @@ get_prop(system_server, vendor_persist_camera_prop)
 allow system_server app_zygote:process { getpgid };
 allow system_server default_android_service:service_manager { add };
 allow system_server vendor_sysfs_battery_supply:file { getattr open read };
-
+allow system_server sdcardfs:file { read open write getattr };
 allow system_server vendor_default_prop:file { open getattr map };
